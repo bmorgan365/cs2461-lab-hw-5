@@ -1,0 +1,4 @@
+Questions: 2
+Statements: 2
+Exclamations: 2
+Total: 6
