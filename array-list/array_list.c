@@ -51,5 +51,7 @@ int al_size(struct array_list* list){ return list->size; }
 
 void al_destroy(struct array_list* list){
    free(list->array);
+   list->array = NULL;
    free(list);
+   list = NULL;
 }
